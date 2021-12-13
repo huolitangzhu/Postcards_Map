@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+
+<script type = "text/javascript" >
+
+var url='index.html';
+function RandomNumber(){
+    var now=new Date();
+    var number = now.getSeconds() +(now.getMilliseconds()%43)*7/1.131412567;
+    if( number ==0){
+        number = now.getFullYear() + (now.getMilliseconds()%1.24377)*7/1.131412567;
+    }
+    return number;
+}
+window.location.href=url+'?_v='+RandomNumber(); 
+</script>
+</html>
