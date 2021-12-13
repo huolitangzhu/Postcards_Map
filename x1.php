@@ -8,6 +8,6 @@
     </style>
 	    <?php get_header(); ?>
     <div id="primary">
-        <IFRAME src="http://https://huolitangzhu.github.io/Postcards_Map/x2.html" style=" margin: 10px 0 0 10px;" scrolling=yes ALLOWTRANSPARENCY="true"></IFRAME>
+        <IFRAME src="http://https://huolitangzhu.github.io/Postcards_Map/index.html" style=" margin: 10px 0 0 10px;" scrolling=yes ALLOWTRANSPARENCY="true"></IFRAME>
     </div><!-- #primary -->
     <!-- main-->
